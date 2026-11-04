@@ -1,0 +1,4 @@
+detector,selected_setting,threshold_or_delta,clean_stream_false_alert_rate
+Autoencoder-input,error-quantile-0.975,0.1614704430103302,0.0
+ADWIN-input,family-delta-0.5,0.5,0.0
+ADWIN-log-loss,delta-0.5,0.5,0.0

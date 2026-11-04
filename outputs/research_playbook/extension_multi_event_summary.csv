@@ -1,0 +1,3 @@
+detector,streams,events,event_recall,mean_delay,delay_sd,event_precision,event_fdr,false_alert_rate,mean_alert_episodes,clean_operational_false_alert_rate,clean_operational_stream_alert_rate
+ADWIN-input,100,300,0.0033333333333333335,15.0,,1.0,0.0,0.0,0.01,0.0,0.0
+Autoencoder-input,100,300,0.5433333333333333,16.54601226993865,9.185470581430092,0.37085714285714283,0.6291428571428571,0.014153846153846154,4.39,0.0137,1.0

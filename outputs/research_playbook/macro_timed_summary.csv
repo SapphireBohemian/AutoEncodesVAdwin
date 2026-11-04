@@ -1,0 +1,3 @@
+detector,training_months,calibration_months,evaluation_months,evaluation_start,evaluation_end,alert_months,first_alert_month,ae_threshold
+Autoencoder,126,42,43,2023-01,2026-07,1,2026-02,0.12295757979154587
+ADWIN,126,42,43,2023-01,2026-07,1,2024-12,

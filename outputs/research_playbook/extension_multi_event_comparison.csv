@@ -1,0 +1,3 @@
+metric,paired_n_streams,mean_difference,bootstrap_ci_95_low,bootstrap_ci_95_high
+per-stream event recall difference (AE - ADWIN),100,0.54,0.48666666666666664,0.5966666666666667
+per-stream event precision difference (AE - ADWIN),1,-0.7142857142857143,-0.7142857142857143,-0.7142857142857143

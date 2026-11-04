@@ -1,0 +1,6 @@
+trial,seed,scenario,evaluation_n,baseline_auc,adapted_auc,auc_change,baseline_logloss,adapted_logloss,label_use
+0,42,sudden_40pct,67,0.6851063829787234,0.6808510638297872,-0.004255319148936176,0.5919414758682251,0.682826817035675,post-onset labels used for simulated adaptation; final third held out
+0,42,gradual_0_to_35pct,67,0.6861702127659575,0.6957446808510639,0.009574468085106425,0.5803601145744324,0.6261087656021118,post-onset labels used for simulated adaptation; final third held out
+0,42,recurring_25pct,67,0.7,0.6829787234042554,-0.017021276595744594,0.5766633152961731,0.6424174904823303,post-onset labels used for simulated adaptation; final third held out
+0,42,sarb_observed_yoy,67,0.7031914893617021,0.6808510638297872,-0.022340425531914843,0.5683480501174927,0.682826817035675,post-onset labels used for simulated adaptation; final third held out
+0,42,cpi_observed_yoy,67,0.6946808510638298,0.676595744680851,-0.018085106382978777,0.5752540230751038,0.6853575706481934,post-onset labels used for simulated adaptation; final third held out

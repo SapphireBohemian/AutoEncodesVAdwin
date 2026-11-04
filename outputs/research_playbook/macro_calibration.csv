@@ -1,0 +1,3 @@
+series,latest_month,latest_value_pct,construction
+"SARB total loans and advances, YoY",2026-07,7.34,Published YoY column in Monthly Release
+"Stats SA CPI, item-weighted index YoY",2026-07,4.28227289475851,Sum(item index multiplied by item weight) / sum(valid item weights); latest / 12-month-prior - 1

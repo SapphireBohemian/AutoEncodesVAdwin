@@ -1,0 +1,3 @@
+detector,sample_scenario,repetitions_sampled,baseline_process_rss_mb,peak_process_rss_mb,incremental_peak_process_rss_mb,measurement
+Autoencoder,cpi_observed_yoy,683,378.25390625,378.40625,0.15234375,"sampled process RSS; includes interpreter, data, and fitted models"
+ADWIN,cpi_observed_yoy,50,378.40234375,378.421875,0.01953125,"sampled process RSS; includes interpreter, data, and fitted models"

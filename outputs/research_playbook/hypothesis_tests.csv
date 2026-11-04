@@ -1,0 +1,31 @@
+scenario,metric,test,n_comparable_initializations,autoencoder_only_wins,adwin_only_wins,p_value_raw,p_value_holm_within_metric,scope
+clean,event_recall,exact paired binomial (discordant initializations),100,0.0,0.0,1.0,1.0,fixed records/order; repeated AE initializations only; not independent datasets
+clean,delay,paired Wilcoxon signed-rank,0,,,,,fixed records/order; repeated AE initializations only; not independent datasets
+clean,event_precision,paired Wilcoxon signed-rank,0,,,,,fixed records/order; repeated AE initializations only; not independent datasets
+clean,event_fdr,paired Wilcoxon signed-rank,0,,,,,fixed records/order; repeated AE initializations only; not independent datasets
+clean,false_alert_episodes,paired Wilcoxon signed-rank,100,,,1.803553690699093e-18,1.0821322144194558e-17,fixed records/order; repeated AE initializations only; not independent datasets
+sudden_40pct,event_recall,exact paired binomial (discordant initializations),100,100.0,0.0,1.5777218104420236e-30,9.466330862652142e-30,fixed records/order; repeated AE initializations only; not independent datasets
+sudden_40pct,delay,paired Wilcoxon signed-rank,0,,,,,fixed records/order; repeated AE initializations only; not independent datasets
+sudden_40pct,event_precision,paired Wilcoxon signed-rank,0,,,,,fixed records/order; repeated AE initializations only; not independent datasets
+sudden_40pct,event_fdr,paired Wilcoxon signed-rank,0,,,,,fixed records/order; repeated AE initializations only; not independent datasets
+sudden_40pct,false_alert_episodes,paired Wilcoxon signed-rank,100,,,1.9347652295285823e-12,9.673826147642911e-12,fixed records/order; repeated AE initializations only; not independent datasets
+gradual_0_to_35pct,event_recall,exact paired binomial (discordant initializations),100,100.0,0.0,1.5777218104420236e-30,9.466330862652142e-30,fixed records/order; repeated AE initializations only; not independent datasets
+gradual_0_to_35pct,delay,paired Wilcoxon signed-rank,0,,,,,fixed records/order; repeated AE initializations only; not independent datasets
+gradual_0_to_35pct,event_precision,paired Wilcoxon signed-rank,0,,,,,fixed records/order; repeated AE initializations only; not independent datasets
+gradual_0_to_35pct,event_fdr,paired Wilcoxon signed-rank,0,,,,,fixed records/order; repeated AE initializations only; not independent datasets
+gradual_0_to_35pct,false_alert_episodes,paired Wilcoxon signed-rank,100,,,1.9347652295285823e-12,9.673826147642911e-12,fixed records/order; repeated AE initializations only; not independent datasets
+recurring_25pct,event_recall,exact paired binomial (discordant initializations),100,97.0,0.0,1.262177448353619e-29,2.524354896707238e-29,fixed records/order; repeated AE initializations only; not independent datasets
+recurring_25pct,delay,paired Wilcoxon signed-rank,0,,,,,fixed records/order; repeated AE initializations only; not independent datasets
+recurring_25pct,event_precision,paired Wilcoxon signed-rank,0,,,,,fixed records/order; repeated AE initializations only; not independent datasets
+recurring_25pct,event_fdr,paired Wilcoxon signed-rank,0,,,,,fixed records/order; repeated AE initializations only; not independent datasets
+recurring_25pct,false_alert_episodes,paired Wilcoxon signed-rank,100,,,1.9347652295285823e-12,9.673826147642911e-12,fixed records/order; repeated AE initializations only; not independent datasets
+sarb_observed_yoy,event_recall,exact paired binomial (discordant initializations),100,99.0,0.0,3.1554436208840472e-30,1.262177448353619e-29,fixed records/order; repeated AE initializations only; not independent datasets
+sarb_observed_yoy,delay,paired Wilcoxon signed-rank,0,,,,,fixed records/order; repeated AE initializations only; not independent datasets
+sarb_observed_yoy,event_precision,paired Wilcoxon signed-rank,0,,,,,fixed records/order; repeated AE initializations only; not independent datasets
+sarb_observed_yoy,event_fdr,paired Wilcoxon signed-rank,0,,,,,fixed records/order; repeated AE initializations only; not independent datasets
+sarb_observed_yoy,false_alert_episodes,paired Wilcoxon signed-rank,100,,,1.9347652295285823e-12,9.673826147642911e-12,fixed records/order; repeated AE initializations only; not independent datasets
+cpi_observed_yoy,event_recall,exact paired binomial (discordant initializations),100,99.0,0.0,3.1554436208840472e-30,1.262177448353619e-29,fixed records/order; repeated AE initializations only; not independent datasets
+cpi_observed_yoy,delay,paired Wilcoxon signed-rank,0,,,,,fixed records/order; repeated AE initializations only; not independent datasets
+cpi_observed_yoy,event_precision,paired Wilcoxon signed-rank,0,,,,,fixed records/order; repeated AE initializations only; not independent datasets
+cpi_observed_yoy,event_fdr,paired Wilcoxon signed-rank,0,,,,,fixed records/order; repeated AE initializations only; not independent datasets
+cpi_observed_yoy,false_alert_episodes,paired Wilcoxon signed-rank,100,,,1.9347652295285823e-12,9.673826147642911e-12,fixed records/order; repeated AE initializations only; not independent datasets

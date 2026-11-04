@@ -1,0 +1,7 @@
+scenario,drift_onset,macro_anchor,definition
+clean,,Proposal parameter/control,No feature perturbation; control for false alerts.
+sudden_40pct,100.0,Proposal parameter/control,"At onset, multiply raw credit_amount and duration by 1.40 (proposal stress magnitude)."
+gradual_0_to_35pct,100.0,Proposal parameter/control,"From onset to stream end, ramp both raw features linearly from 1.00 to 1.35."
+recurring_25pct,100.0,Proposal parameter/control,"From onset, multiply both features by 1 + 0.25*sin(2*pi*k/12); synthetic period only."
+sarb_observed_yoy,100.0,SARB,"At onset, multiply raw credit_amount by 1 + latest SARB total-loans-and-advances YoY/100."
+cpi_observed_yoy,100.0,Stats SA CPI,"From onset to stream end, ramp raw credit_amount from 1.00 to 1 + latest weighted CPI YoY/100."
